@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 
 .mainContainer {
     display: flex;
@@ -156,7 +159,7 @@ nav ul li.Signup a {
     justify-content: space-between;
     width: 80%;
     padding: 0;
-    border: 2px solid black;
+    border: 2px solid orange;
     margin-top: 50px;
 }
 
