@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color:white; /* Background color for the navigation bar */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between; /* Adjust alignment */
+    align-items: center
+
+}
+
+.container li {
+ 
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between links */
+    font-size: 18px; /* Increase font size */
+
+}
+
+.heading {
+    margin-right: auto;
+}
+
+.heading h2 {
+   
+    font-size: 30px; /* Increase font size */
+    font-family: 'Arial', sans-serif; /* Use a different font */
+    color: #333; /* Text color for headings */
+}
+
+nav {
+    margin-right: 550px;
+}
+
+nav a {
+    text-decoration: none;
+    /* color: #555; */
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    /* transition: all 0.3s ease 0s; */
+    transition: color 0.3s ease;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.container a:hover {
+    color: #b2dfdb;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+     background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.profile .left {
+    width: 50%;
+
+}
+
+.left h2 {
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #2e8b57; /* Dark green color */
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+
+}
+.left h2 span {
+    color: #FF5733; /* Blue color for "Web Developer" */
+    text-transform: uppercase;
+}
+.profile .right {
+    width: 50%;
+
+}
+.pp{
+    font-size: 15px;
+    margin-top: 10px;
+    color:rgb(87, 85, 85);
+}
+
+.profile .right img {
+    width: 55%;
+    border-radius: 2000px;
+    padding: 5px;
+}
+
+span {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: chocolate;
+    font-weight: 800;
+}
+
+.profile .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stack {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+
+}
+
+.innerstack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.innerHeading {
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+.innerHeading h2 {
+    position: relative;
+    font-size: 45px;
+    font-family: 'Cursive', cursive;
+    font-weight: bold;
+    color: #006400; /* Adjust the color to your preference */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(30, 144, 255, 0.4);
+}
+
+.innerHeading h2::after {
+    content: "";
+    position: absolute;
+    bottom: -10px; /* Adjust the thickness of the underline */
+    left: 0;
+    width: 100%;
+    height: 5px; /* Adjust the thickness of the underline */
+    background-color:#E0E0E0; /* Match the heading text color */
+}
+
+.innerPara {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    color: #333;
+}
+
+.secondPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.techStacks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding: 0px 300px;
+}
+
+.techStacks .div1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+}
+
+.innerDivPara p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.innerDivPara p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* .div1:hover{
+    background:#333;
+    color: white;
+} */
